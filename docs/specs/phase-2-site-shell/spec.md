@@ -19,13 +19,13 @@ carry the brand.
 
 ## Deliverables
 
-- [ ] `app/layout.tsx` — root layout with `<html>`, `<body>`, header, footer
-- [ ] `components/site/site-header.tsx` — navigation header
-- [ ] `components/site/site-footer.tsx` — footer with links and identity tag
-- [ ] `lib/site.ts` — site config (name, tagline, author, social links)
-- [ ] `lib/site-navigation.ts` — navigation data (main nav items, footer links)
-- [ ] Google Fonts integration (Inter + JetBrains Mono via `next/font`)
-- [ ] Favicon and site metadata in `layout.tsx`
+- [x] `app/layout.tsx` — root layout with `<html>`, `<body>`, header, footer
+- [x] `components/site/site-header.tsx` — navigation header
+- [x] `components/site/site-footer.tsx` — footer with links and identity tag
+- [x] `lib/site.ts` — site config (name, tagline, author, social links)
+- [x] `lib/site-navigation.ts` — navigation data (main nav items, footer links)
+- [x] Google Fonts integration (Inter + JetBrains Mono via `next/font`)
+- [x] Favicon and site metadata in `layout.tsx`
 
 ---
 
@@ -137,14 +137,14 @@ export const metadata: Metadata = {
 
 ## Quality Gates
 
-- [ ] Header renders on all pages
-- [ ] Footer renders on all pages
-- [ ] Active nav link is highlighted on current route
-- [ ] Mobile menu opens and closes correctly
-- [ ] Fonts load via `next/font` (no layout shift)
-- [ ] `npm run typecheck` passes
-- [ ] `npm run lint` passes
-- [ ] `npm run build` succeeds
+- [x] Header renders on all pages
+- [x] Footer renders on all pages
+- [x] Active nav link is highlighted on current route
+- [x] Mobile menu opens and closes correctly
+- [x] Fonts load via `next/font` (no layout shift)
+- [x] `npm run typecheck` passes
+- [x] `npm run lint` passes
+- [x] `npm run build` succeeds
 
 ---
 

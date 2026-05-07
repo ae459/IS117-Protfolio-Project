@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,6 +21,8 @@ const projects: {
   description: string;
   what_it_shows: string;
   tech: string[];
+  image: string;
+  imageAlt: string;
   github?: string;
   live?: string;
 }[] = [
@@ -27,6 +30,8 @@ const projects: {
     id: "portfolio-site",
     title: "IS117 Portfolio Site",
     status: "completed",
+    image: "/project-protfolio-site.png",
+    imageAlt: "Code editor and rendered website side by side, dark theme",
     description:
       "A spec-driven portfolio website built with Next.js 16, TypeScript, and Tailwind CSS v4. Designed using the professor’s AI orchestration methodology — planning with 9 phase specs, building with purpose, and verifying with quality gates. Every architectural decision is documented.",
     what_it_shows:
@@ -38,6 +43,8 @@ const projects: {
     id: "scrollytelling-museum",
     title: "IS117 Scrollytelling Museum",
     status: "completed",
+    image: "/project-scrollytelling.png",
+    imageAlt: "Museum-style scroll web interface with editorial layout",
     description:
       "A museum-style scrollytelling web experience built as an earlier IS117 project. Demonstrates understanding of layout, narrative flow, and editorial web design — the foundation that informed how I approached this portfolio.",
     what_it_shows:
@@ -48,6 +55,8 @@ const projects: {
     id: "prompt-lab",
     title: "AI Prompt Engineering Lab",
     status: "in-progress",
+    image: "/project-prompt-lab.png",
+    imageAlt: "Abstract prompt conversation interface with AI-themed dark design",
     description:
       "A structured personal research workspace for testing and documenting LLM prompting patterns. Not a random folder of prompts — a documented methodology: system prompts, chain-of-thought examples, few-shot patterns, and output evaluation notes. Built as a GitHub repo.",
     what_it_shows:
@@ -58,6 +67,8 @@ const projects: {
     id: "spec-generator",
     title: "Spec-to-Site Generator",
     status: "concept",
+    image: "/project-spec-generator.png",
+    imageAlt: "Spec document transforming into code structure, abstract flow diagram",
     description:
       "A CLI tool that reads a markdown spec file, extracts component requirements, and generates typed Next.js component stubs with correct folder structure. Inspired by the professor’s spec-sprint methodology. Solves the gap between ‘I have a plan’ and ‘I have a starting codebase.’ Spec written. Build planned for Summer 2026.",
     what_it_shows:
@@ -98,6 +109,16 @@ export default function ProjectsPage() {
                 variant={project.status === "concept" ? "ghost" : "default"}
                 className="hover-lift flex flex-col gap-5"
               >
+                {/* Project image */}
+                <div className="relative rounded-[var(--radius-md)] overflow-hidden border border-[var(--ink-08)] bg-[var(--surface-2)]" style={{ aspectRatio: "16/9" }}>
+                  <Image
+                    src={project.image}
+                    alt={project.imageAlt}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
                 <div className="flex items-start justify-between gap-4">
                   <h3 className="text-[var(--foreground)]">{project.title}</h3>
                   <span className={status.className} style={{ whiteSpace: "nowrap" }}>

@@ -23,13 +23,13 @@ specific direction is more credible than a vague collection of buzzwords.
 
 ## Deliverables
 
-- [ ] `app/about/page.tsx` — about page route
-- [ ] `components/content/about/about-hero.tsx` — page hero
-- [ ] `components/content/about/story-section.tsx` — personal story block
-- [ ] `components/content/about/direction-section.tsx` — professional direction
-- [ ] `components/content/about/values-section.tsx` — working values / approach
-- [ ] `components/content/about/timeline-section.tsx` — learning timeline
-- [ ] `lib/content/about.ts` — about page content data
+- [x] `app/about/page.tsx` — about page route
+- [x] `components/content/about/about-hero.tsx` — page hero
+- [x] `components/content/about/story-section.tsx` — personal story block
+- [x] `components/content/about/direction-section.tsx` — professional direction
+- [x] `components/content/about/values-section.tsx` — working values / approach
+- [x] `components/content/about/timeline-section.tsx` — learning timeline
+- [x] `lib/content/about.ts` — about page content data
 
 ---
 
@@ -144,12 +144,12 @@ Four values as compact cards:
 
 ## Quality Gates
 
-- [ ] Page renders with all four sections
-- [ ] Timeline displays correctly on mobile and desktop
-- [ ] Values cards are legible at all breakpoints
-- [ ] Copy is honest, specific, and professionally grounded
-- [ ] `npm run typecheck` passes
-- [ ] `npm run build` succeeds
+- [x] Page renders with all four sections
+- [x] Timeline displays correctly on mobile and desktop
+- [x] Values cards are legible at all breakpoints
+- [x] Copy is honest, specific, and professionally grounded
+- [x] `npm run typecheck` passes
+- [x] `npm run build` succeeds
 
 ---
 

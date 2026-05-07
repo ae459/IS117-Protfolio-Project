@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Zap, BookOpen, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -70,21 +71,13 @@ export default function HomePage() {
               className="rounded-[var(--radius-xl)] border border-[var(--ink-12)] bg-[var(--surface-1)] overflow-hidden"
               style={{ aspectRatio: "4/3" }}
             >
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="flex flex-col items-center gap-4 text-center p-8">
-                  <div
-                    className="w-16 h-16 rounded-full bg-[var(--accent-muted)] border border-[var(--accent-border)] flex items-center justify-center"
-                  >
-                    <Zap size={28} className="text-[var(--accent-soft)]" />
-                  </div>
-                  <p className="font-mono text-xs text-[var(--ink-40)] tracking-widest uppercase">
-                    AI · Systems · Engineering
-                  </p>
-                  <p className="text-[var(--ink-60)] text-sm max-w-[24ch] leading-relaxed">
-                    Designing intelligent systems with intention and discipline.
-                  </p>
-                </div>
-              </div>
+              <Image
+                src="/home-hero.png"
+                alt="Abstract AI neural network visualization with dark background and indigo accent tones"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             {/* Glow effect */}
             <div

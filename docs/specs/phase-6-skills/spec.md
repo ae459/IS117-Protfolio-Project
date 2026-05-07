@@ -22,13 +22,13 @@ actively learning, and how do they think about using these tools together?**
 
 ## Deliverables
 
-- [ ] `app/skills/page.tsx` — skills page route
-- [ ] `components/content/skills/skills-hero.tsx` — page hero
-- [ ] `components/content/skills/skill-category.tsx` — category block with skill items
-- [ ] `components/content/skills/skill-item.tsx` — individual skill with level indicator
-- [ ] `components/content/skills/workflow-section.tsx` — AI workflow explanation
-- [ ] `components/content/skills/learning-roadmap.tsx` — what's next section
-- [ ] `lib/content/skills.ts` — all skills data
+- [x] `app/skills/page.tsx` — skills page route
+- [x] `components/content/skills/skills-hero.tsx` — page hero
+- [x] `components/content/skills/skill-category.tsx` — category block with skill items
+- [x] `components/content/skills/skill-item.tsx` — individual skill with level indicator
+- [x] `components/content/skills/workflow-section.tsx` — AI workflow explanation
+- [x] `components/content/skills/learning-roadmap.tsx` — what's next section
+- [x] `lib/content/skills.ts` — all skills data
 
 ---
 
@@ -161,13 +161,13 @@ What's next — honest and specific:
 
 ## Quality Gates
 
-- [ ] All 4 skill categories render
-- [ ] Skill level labels are consistent and readable
-- [ ] Workflow section is present and substantive
-- [ ] Learning roadmap shows realistic future steps
-- [ ] Page is responsive at all breakpoints
-- [ ] `npm run typecheck` passes
-- [ ] `npm run build` succeeds
+- [x] All 4 skill categories render
+- [x] Skill level labels are consistent and readable
+- [x] Workflow section is present and substantive
+- [x] Learning roadmap shows realistic future steps
+- [x] Page is responsive at all breakpoints
+- [x] `npm run typecheck` passes
+- [x] `npm run build` succeeds
 
 ---
 

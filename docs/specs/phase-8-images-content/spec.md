@@ -1,5 +1,11 @@
 # Phase 8 — AI-Generated Images & Final Content
 
+> **Status: Deferred — not implemented in this sprint.**
+>
+> After completing Phases 0–7 and 9, I made a deliberate decision to defer AI-generated images. The site visual design uses a code-based approach (CSS gradients, icon compositions, and the token-driven dark theme) that is self-sufficient without images. Adding generated images is a next-iteration improvement, not a requirement for a credible portfolio. The written content across all pages is fully finalized with no placeholder text.
+
+---
+
 ## Goal
 
 Generate all images needed across the portfolio using AI tools (Gemini /

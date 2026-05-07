@@ -20,16 +20,16 @@ create the environment where everything else can be built correctly.
 
 ## Deliverables
 
-- [ ] Next.js 16 project initialized with App Router and strict TypeScript
-- [ ] Tailwind CSS v4 configured with PostCSS
-- [ ] ESLint configured (Next.js recommended rules)
-- [ ] Prettier configured for formatting consistency
-- [ ] `next.config.ts` set for static export (`output: 'export'`)
-- [ ] `tsconfig.json` with path alias `@/` pointing to project root
-- [ ] `.gitignore` covers `node_modules`, `.next`, `out`
-- [ ] GitHub repository initialized and connected to remote
-- [ ] Initial commit pushed to `main`
-- [ ] GitHub Pages enabled on repository settings
+- [x] Next.js 16 project initialized with App Router and strict TypeScript
+- [x] Tailwind CSS v4 configured with PostCSS
+- [x] ESLint configured (Next.js recommended rules)
+- [x] Prettier configured for formatting consistency
+- [x] `next.config.ts` set for static export (`output: 'export'`)
+- [x] `tsconfig.json` with path alias `@/` pointing to project root
+- [x] `.gitignore` covers `node_modules`, `.next`, `out`
+- [x] GitHub repository initialized and connected to remote
+- [x] Initial commit pushed to `main`
+- [x] GitHub Pages enabled on repository settings
 
 ---
 
@@ -111,12 +111,12 @@ npm run build
 
 ## Quality Gates
 
-- [ ] `npm run dev` starts without errors
-- [ ] `npm run build` produces `out/` directory
-- [ ] `npm run typecheck` passes with zero errors
-- [ ] `npm run lint` passes with zero errors
-- [ ] GitHub remote is connected
-- [ ] GitHub Pages is configured and accessible
+- [x] `npm run dev` starts without errors
+- [x] `npm run build` produces `out/` directory
+- [x] `npm run typecheck` passes with zero errors
+- [x] `npm run lint` passes with zero errors
+- [x] GitHub remote is connected
+- [x] GitHub Pages is configured and accessible
 
 ---
 

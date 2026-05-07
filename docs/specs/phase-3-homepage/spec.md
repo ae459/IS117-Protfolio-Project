@@ -20,12 +20,12 @@ This page answers: **Who is this person, and why does their direction matter?**
 
 ## Deliverables
 
-- [ ] `app/page.tsx` — homepage route
-- [ ] `components/content/home/home-hero.tsx` — full hero section
-- [ ] `components/content/home/identity-signals.tsx` — 3-card signal strip
-- [ ] `components/content/home/featured-projects-preview.tsx` — 2-card preview
-- [ ] `components/content/home/skills-preview.tsx` — tool/skill strip
-- [ ] `lib/content/homepage.ts` — homepage content data
+- [x] `app/page.tsx` — homepage route
+- [x] `components/content/home/home-hero.tsx` — full hero section
+- [x] `components/content/home/identity-signals.tsx` — 3-card signal strip
+- [x] `components/content/home/featured-projects-preview.tsx` — 2-card preview
+- [x] `components/content/home/skills-preview.tsx` — tool/skill strip
+- [x] `lib/content/homepage.ts` — homepage content data
 
 ---
 
@@ -149,14 +149,14 @@ A compact badge strip (not the full page — that's Phase 6):
 
 ## Quality Gates
 
-- [ ] Hero renders with correct headline and CTA buttons
-- [ ] Identity signals show all 3 cards correctly
-- [ ] Featured projects link to `/projects`
-- [ ] Skills preview links to `/skills`
-- [ ] Page is responsive (mobile/tablet/desktop)
-- [ ] Feature image loads correctly
-- [ ] `npm run typecheck` passes
-- [ ] `npm run build` succeeds
+- [x] Hero renders with correct headline and CTA buttons
+- [x] Identity signals show all 3 cards correctly
+- [x] Featured projects link to `/projects`
+- [x] Skills preview links to `/skills`
+- [x] Page is responsive (mobile/tablet/desktop)
+- [x] Feature image loads correctly
+- [x] `npm run typecheck` passes
+- [x] `npm run build` succeeds
 
 ---
 

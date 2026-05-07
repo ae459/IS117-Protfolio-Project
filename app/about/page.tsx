@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -66,16 +67,27 @@ export default function AboutPage() {
     <div className="flex flex-col">
       {/* Hero */}
       <section className="section-spacing page-shell">
-        <div className="max-w-3xl">
-          <p className="eyebrow mb-3">About</p>
-          <div className="accent-line mb-6" />
-          <h1 className="mb-6">Where I Am and Where I’m Going</h1>
-          <p className="text-[var(--ink-70)] text-xl leading-relaxed">
-            I’m a freshman at NJIT. I don’t have three years of work
-            experience. What I have is a clear research-backed direction, the
-            discipline to plan before I build, and the judgment to use AI as a
-            tool — not a shortcut.
-          </p>
+        <div className="grid gap-10 lg:grid-cols-[1fr_2fr] lg:items-start">
+          <div className="relative rounded-[var(--radius-xl)] overflow-hidden border border-[var(--ink-12)] bg-[var(--surface-1)]" style={{ aspectRatio: "3/4" }}>
+            <Image
+              src="/about-portrait.png"
+              alt="Stylized digital illustration of a young engineer at a workstation with indigo accent lighting"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div>
+            <p className="eyebrow mb-3">About</p>
+            <div className="accent-line mb-6" />
+            <h1 className="mb-6">Where I Am and Where I'm Going</h1>
+            <p className="text-[var(--ink-70)] text-xl leading-relaxed">
+              I'm a freshman at NJIT. I don't have three years of work
+              experience. What I have is a clear research-backed direction, the
+              discipline to plan before I build, and the judgment to use AI as a
+              tool — not a shortcut.
+            </p>
+          </div>
         </div>
       </section>
 

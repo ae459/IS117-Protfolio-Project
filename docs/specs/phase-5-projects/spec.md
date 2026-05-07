@@ -24,13 +24,13 @@ real problem spaces, real workflows.
 
 ## Deliverables
 
-- [ ] `app/projects/page.tsx` — projects page route
-- [ ] `components/content/projects/project-hero.tsx` — page hero
-- [ ] `components/content/projects/project-card.tsx` — individual project card
-- [ ] `components/content/projects/project-grid.tsx` — card layout container
-- [ ] `components/content/projects/project-detail.tsx` — expanded project section
-- [ ] `lib/content/projects.ts` — all project data
-- [ ] Project status badges: `Completed` | `In Progress` | `Concept`
+- [x] `app/projects/page.tsx` — projects page route
+- [x] `components/content/projects/project-hero.tsx` — page hero
+- [x] `components/content/projects/project-card.tsx` — individual project card
+- [x] `components/content/projects/project-grid.tsx` — card layout container
+- [x] `components/content/projects/project-detail.tsx` — expanded project section
+- [x] `lib/content/projects.ts` — all project data
+- [x] Project status badges: `Completed` | `In Progress` | `Concept`
 
 ---
 
@@ -151,14 +151,14 @@ a half-built project with no clear goal.**
 
 ## Quality Gates
 
-- [ ] All 4 projects render correctly
-- [ ] Status badges are visible and correctly styled
-- [ ] Tech tags display for each project
-- [ ] Links work for completed projects
-- [ ] Concept projects have clear labels
-- [ ] Grid is responsive at all breakpoints
-- [ ] `npm run typecheck` passes
-- [ ] `npm run build` succeeds
+- [x] All 4 projects render correctly
+- [x] Status badges are visible and correctly styled
+- [x] Tech tags display for each project
+- [x] Links work for completed projects
+- [x] Concept projects have clear labels
+- [x] Grid is responsive at all breakpoints
+- [x] `npm run typecheck` passes
+- [x] `npm run build` succeeds
 
 ---
 

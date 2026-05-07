@@ -18,11 +18,11 @@ form into an active professional invitation.
 
 ## Deliverables
 
-- [ ] `app/contact/page.tsx` — contact page route
-- [ ] `components/content/contact/contact-hero.tsx` — page hero
-- [ ] `components/content/contact/contact-links.tsx` — social/external links section
-- [ ] `components/content/contact/audience-section.tsx` — who I want to hear from
-- [ ] `lib/content/contact.ts` — contact page content data
+- [x] `app/contact/page.tsx` — contact page route
+- [x] `components/content/contact/contact-hero.tsx` — page hero
+- [x] `components/content/contact/contact-links.tsx` — social/external links section
+- [x] `components/content/contact/audience-section.tsx` — who I want to hear from
+- [x] `lib/content/contact.ts` — contact page content data
 
 ---
 
@@ -101,13 +101,13 @@ integrated without a server.
 
 ## Quality Gates
 
-- [ ] All 3 contact links work correctly
-- [ ] Audience section renders all 3 cards
-- [ ] Page is responsive at all breakpoints
-- [ ] Email link opens mail client
-- [ ] GitHub/LinkedIn links open in new tab
-- [ ] `npm run typecheck` passes
-- [ ] `npm run build` succeeds
+- [x] All 3 contact links work correctly
+- [x] Audience section renders all 3 cards
+- [x] Page is responsive at all breakpoints
+- [x] Email link opens mail client
+- [x] GitHub/LinkedIn links open in new tab
+- [x] `npm run typecheck` passes
+- [x] `npm run build` succeeds
 
 ---
 

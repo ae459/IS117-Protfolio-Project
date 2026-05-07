@@ -19,17 +19,17 @@ technical precision, forward-thinking, and intelligent restraint.
 
 ## Deliverables
 
-- [ ] `app/globals.css` with full CSS custom property token system
-- [ ] Typography tokens (display font, body font, scale)
-- [ ] Color palette tokens (primary surface, ink, accent, muted)
-- [ ] Spacing scale tokens (phi-based or consistent modular scale)
-- [ ] `lib/utils.ts` with `cn()` helper (clsx + tailwind-merge)
-- [ ] Tailwind configured to consume custom tokens via CSS variables
-- [ ] CVA (class-variance-authority) installed for component variants
-- [ ] Base component: `components/ui/panel.tsx`
-- [ ] Base component: `components/ui/button.tsx`
-- [ ] Base component: `components/ui/section-heading.tsx`
-- [ ] Re-export from `components/ui/index.ts`
+- [x] `app/globals.css` with full CSS custom property token system
+- [x] Typography tokens (display font, body font, scale)
+- [x] Color palette tokens (primary surface, ink, accent, muted)
+- [x] Spacing scale tokens (phi-based or consistent modular scale)
+- [x] `lib/utils.ts` with `cn()` helper (clsx + tailwind-merge)
+- [x] Tailwind configured to consume custom tokens via CSS variables
+- [x] CVA (class-variance-authority) installed for component variants
+- [x] Base component: `components/ui/panel.tsx`
+- [x] Base component: `components/ui/button.tsx`
+- [x] Base component: `components/ui/section-heading.tsx`
+- [x] Re-export from `components/ui/index.ts`
 
 ---
 
@@ -131,11 +131,11 @@ A reusable heading block with:
 
 ## Quality Gates
 
-- [ ] All tokens defined in `globals.css`
-- [ ] `cn()` utility available and tested
-- [ ] Button, Panel, SectionHeading render without TypeScript errors
-- [ ] `npm run typecheck` passes
-- [ ] `npm run lint` passes
+- [x] All tokens defined in `globals.css`
+- [x] `cn()` utility available and tested
+- [x] Button, Panel, SectionHeading render without TypeScript errors
+- [x] `npm run typecheck` passes
+- [x] `npm run lint` passes
 
 ---
 

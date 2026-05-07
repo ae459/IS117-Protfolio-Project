@@ -21,12 +21,12 @@ communicate intent and provide the live link immediately.
 
 ## Deliverables
 
-- [ ] `next.config.ts` — static export configured, `basePath` set for GitHub Pages
-- [ ] `.github/workflows/deploy.yml` — CI/CD pipeline for GitHub Pages
-- [ ] `README.md` — project README with live site link prominent at top
-- [ ] GitHub Pages enabled in repository settings
-- [ ] Live site accessible at `https://[username].github.io/IS117-Portfolio-Project/`
-- [ ] All pages load correctly on the live site (no 404s, no broken assets)
+- [x] `next.config.ts` — static export configured, `basePath` set for GitHub Pages
+- [x] `.github/workflows/deploy.yml` — CI/CD pipeline for GitHub Pages
+- [x] `README.md` — project README with live site link prominent at top
+- [x] GitHub Pages enabled in repository settings
+- [x] Live site accessible at `https://[username].github.io/IS117-Portfolio-Project/`
+- [x] All pages load correctly on the live site (no 404s, no broken assets)
 
 ---
 
@@ -201,25 +201,25 @@ IS117 · Professor [Professor Name] · NJIT · Spring 2026
 
 ## Deployment Checklist
 
-- [ ] `next.config.ts` has `output: 'export'`, `basePath`, `assetPrefix`
-- [ ] `.github/workflows/deploy.yml` exists and is correctly formatted
-- [ ] GitHub repository has Pages enabled (Settings → Pages → GitHub Actions)
-- [ ] First deployment succeeded in GitHub Actions
-- [ ] Live URL is accessible
-- [ ] All 5 pages load on live site
-- [ ] No console errors on live site
-- [ ] All images load on live site
-- [ ] Internal navigation works (no 404s)
+- [x] `next.config.ts` has `output: 'export'`, `basePath`, `assetPrefix`
+- [x] `.github/workflows/deploy.yml` exists and is correctly formatted
+- [x] GitHub repository has Pages enabled (Settings → Pages → GitHub Actions)
+- [x] First deployment succeeded in GitHub Actions
+- [x] Live URL is accessible
+- [x] All 5 pages load on live site
+- [x] No console errors on live site
+- [x] All images load on live site
+- [x] Internal navigation works (no 404s)
 
 ---
 
 ## Quality Gates
 
-- [ ] `npm run build` produces `./out` directory
-- [ ] GitHub Actions workflow runs green
-- [ ] Live site URL returns the homepage (not a 404)
-- [ ] README displays the live site link prominently
-- [ ] All pages accessible via live URL
+- [x] `npm run build` produces `./out` directory
+- [x] GitHub Actions workflow runs green
+- [x] Live site URL returns the homepage (not a 404)
+- [x] README displays the live site link prominently
+- [x] All pages accessible via live URL
 
 ---
 
