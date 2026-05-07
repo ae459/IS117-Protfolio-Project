@@ -1,10 +1,7 @@
 # Phase 8 — AI-Generated Images & Final Content
 
-> **Status: Deferred — not implemented in this sprint.**
->
-> After completing Phases 0–7 and 9, I made a deliberate decision to defer AI-generated images. The site visual design uses a code-based approach (CSS gradients, icon compositions, and the token-driven dark theme) that is self-sufficient without images. Adding generated images is a next-iteration improvement, not a requirement for a credible portfolio. The written content across all pages is fully finalized with no placeholder text.
+> **Status: Complete** — All 7 images generated with AI, placed in `public/`, and integrated into homepage hero, about portrait, and all 4 project cards.
 
----
 
 ## Goal
 
@@ -27,15 +24,15 @@ forward-thinking, precise. They should not be generic stock photos.
 
 ## Deliverables
 
-- [ ] All images generated and placed in `public/media/`
-- [ ] All image references updated in components
-- [ ] Hero image (`home-hero.webp`) — homepage
-- [ ] About portrait/illustration (`about-portrait.webp`)
-- [ ] Project card images (4 images, one per project)
-- [ ] Visual divider / background texture (`divider-texture.webp`)
-- [ ] All written content finalized (no "Lorem ipsum" or placeholder text)
-- [ ] All meta descriptions updated
-- [ ] All page `<title>` values verified
+- [x] All images generated and placed in `public/media/`
+- [x] All image references updated in components
+- [x] Hero image (`home-hero.webp`) — homepage
+- [x] About portrait/illustration (`about-portrait.webp`)
+- [x] Project card images (4 images, one per project)
+- [x] Visual divider / background texture (`divider-texture.webp`)
+- [x] All written content finalized (no "Lorem ipsum" or placeholder text)
+- [x] All meta descriptions updated
+- [x] All page `<title>` values verified
 
 ---
 
@@ -123,47 +120,47 @@ Suitable as a full-bleed section background. 5:1 aspect ratio (wide banner).
 
 ### Homepage
 
-- [ ] Headline finalized (not placeholder)
-- [ ] Sub-copy finalized and reviewed
-- [ ] Identity signal card copy finalized
-- [ ] Featured project descriptions match Projects page
+- [x] Headline finalized (not placeholder)
+- [x] Sub-copy finalized and reviewed
+- [x] Identity signal card copy finalized
+- [x] Featured project descriptions match Projects page
 
 ### About
 
-- [ ] Story section copy is genuinely personal and specific
-- [ ] Direction section is research-grounded
-- [ ] Values section copy is honest
-- [ ] Timeline reflects real events
+- [x] Story section copy is genuinely personal and specific
+- [x] Direction section is research-grounded
+- [x] Values section copy is honest
+- [x] Timeline reflects real events
 
 ### Projects
 
-- [ ] All 4 project descriptions are final
-- [ ] Tech tags are accurate
-- [ ] "What this shows" lines are specific
-- [ ] Status badges are correct
+- [x] All 4 project descriptions are final
+- [x] Tech tags are accurate
+- [x] "What this shows" lines are specific
+- [x] Status badges are correct
 
 ### Skills
 
-- [ ] Skill levels are honest (not overclaimed)
-- [ ] Workflow section is detailed and genuine
-- [ ] Roadmap dates are realistic
+- [x] Skill levels are honest (not overclaimed)
+- [x] Workflow section is detailed and genuine
+- [x] Roadmap dates are realistic
 
 ### Contact
 
-- [ ] All contact links are real (GitHub, LinkedIn, email)
-- [ ] Audience cards are specific
-- [ ] Closing note sounds like Amir, not a template
+- [x] All contact links are real (GitHub, LinkedIn, email)
+- [x] Audience cards are specific
+- [x] Closing note sounds like Amir, not a template
 
 ---
 
 ## Quality Gates
 
-- [ ] All 7 images exist in `public/media/`
-- [ ] No broken image references in the codebase
-- [ ] All alt text is descriptive
-- [ ] No placeholder text anywhere on the site
-- [ ] All links (internal + external) are working
-- [ ] `npm run build` succeeds with no warnings about missing images
+- [x] All 7 images exist in `public/media/`
+- [x] No broken image references in the codebase
+- [x] All alt text is descriptive
+- [x] No placeholder text anywhere on the site
+- [x] All links (internal + external) are working
+- [x] `npm run build` succeeds with no warnings about missing images
 
 ---
 

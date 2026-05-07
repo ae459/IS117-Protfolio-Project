@@ -62,8 +62,8 @@ pipelines are adapted from that reference for use in a portfolio context.
 
 Before marking any phase complete:
 
-- [ ] `npm run typecheck` passes
-- [ ] `npm run lint` passes
-- [ ] `npm run build` produces no errors
-- [ ] Page renders correctly in browser
-- [ ] Content is intentional, not placeholder
+- [x] `npm run typecheck` passes
+- [x] `npm run lint` passes
+- [x] `npm run build` produces no errors
+- [x] Page renders correctly in browser
+- [x] Content is intentional, not placeholder

@@ -80,9 +80,9 @@ export default function AboutPage() {
           <div>
             <p className="eyebrow mb-3">About</p>
             <div className="accent-line mb-6" />
-            <h1 className="mb-6">Where I Am and Where I'm Going</h1>
+            <h1 className="mb-6">Where I Am and Where I&apos;m Going</h1>
             <p className="text-[var(--ink-70)] text-xl leading-relaxed">
-              I'm a freshman at NJIT. I don't have three years of work
+              I&apos;m a freshman at NJIT. I don&apos;t have three years of work
               experience. What I have is a clear research-backed direction, the
               discipline to plan before I build, and the judgment to use AI as a
               tool — not a shortcut.
