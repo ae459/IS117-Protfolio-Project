@@ -21,7 +21,7 @@ export const footerNavigation = {
     { href: "/skills", label: "Skills" },
     { href: "/contact", label: "Contact" },
     {
-      href: "https://github.com/AmirE",
+      href: "https://github.com/ae459",
       label: "GitHub",
       external: true,
     },

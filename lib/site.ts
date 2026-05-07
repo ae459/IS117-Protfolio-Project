@@ -3,9 +3,9 @@ export const siteConfig = {
   role: "AI Forward Engineer",
   tagline: "Building the systems that make AI useful.",
   description:
-    "Freshman at NJIT studying how to design, build, and orchestrate AI-forward systems. This portfolio documents the direction I am building toward.",
-  github: "https://github.com/AmirE",
-  linkedin: "https://linkedin.com/in/amir-e",
-  email: "mailto:amir@njit.edu",
-  repoUrl: "https://github.com/AmirE/IS117-Portfolio-Project",
+    "Recent graduate in Information Technology from NJIT. This portfolio documents my direction into AI-forward engineering — designing, building, and orchestrating systems where AI does serious work.",
+  github: "https://github.com/ae459",
+  linkedin: "https://linkedin.com/in/aelmahalawy",
+  email: "mailto:amir.elmaha@gmail.com",
+  repoUrl: "https://github.com/ae459/IS117-Portfolio-Project",
 };

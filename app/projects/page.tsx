@@ -41,12 +41,13 @@ const projects: {
   },
   {
     id: "scrollytelling-museum",
-    title: "IS117 Scrollytelling Museum",
+    title: "IS117 Marvel Comic Book Museum",
     status: "completed",
     image: "/project-scrollytelling.png",
     imageAlt: "Museum-style scroll web interface with editorial layout",
+    github: "https://github.com/ae459/IS117_MT",
     description:
-      "A museum-style scrollytelling web experience built as an earlier IS117 project. Demonstrates understanding of layout, narrative flow, and editorial web design — the foundation that informed how I approached this portfolio.",
+      "A museum-style scrollytelling web experience exploring the history of Marvel Comics, built as an earlier IS117 project. Uses scroll-driven narrative, editorial layout, and custom CSS to guide visitors through comic book eras. Live on GitHub Pages.",
     what_it_shows:
       "Foundational web skills, design thinking, and storytelling with web technology.",
     tech: ["HTML", "CSS", "JavaScript"],

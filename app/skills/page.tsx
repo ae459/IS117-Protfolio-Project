@@ -83,9 +83,8 @@ const workflowSteps = [
 const roadmap = [
   { date: "Summer 2026", goal: "LangChain fundamentals — build a simple RAG system from scratch." },
   { date: "Summer 2026", goal: "Start Spec-to-Site Generator project (spec already written)." },
-  { date: "Fall 2026", goal: "Data Structures course at NJIT." },
-  { date: "Fall 2026", goal: "Begin Python for Machine Learning (self-directed)." },
-  { date: "2027", goal: "First internship application in AI/ML engineering." },
+  { date: "Fall 2026", goal: "Self-directed: Python for Machine Learning." },
+  { date: "2027", goal: "First full-time application in AI/ML engineering." },
   { date: "2027–2028", goal: "Deep dive: vector databases, embeddings, production AI systems." },
 ];
 

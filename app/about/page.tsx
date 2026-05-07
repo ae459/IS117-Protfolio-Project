@@ -37,28 +37,40 @@ const values = [
 
 const timeline = [
   {
+    date: "Fall 2022",
+    title: "Started at NJIT — Information Technology",
+    detail:
+      "Transferred foundational CS credits from Middlesex County College (OOP, Data Structures, Discrete Math) and began the IT program. Also completed Computing & Effective Communication.",
+  },
+  {
+    date: "Spring 2023",
+    title: "Information Design, Ethics & Professional Development",
+    detail:
+      "IT 201 Information Design Techniques, IS 350 Computers Society & Ethics, YWCC 307 Professional Development in Computing. First exposure to design principles and the professional responsibilities of working in tech.",
+  },
+  {
+    date: "Spring 2025",
+    title: "Networking & Internet Applications",
+    detail:
+      "IT 120 Intro to Networking Technology, IT 202 Internet Applications. Built understanding of how systems communicate and how web applications are structured and deployed.",
+  },
+  {
     date: "Fall 2025",
-    title: "Started IS117",
+    title: "Databases & System Administration",
     detail:
-      "First serious exposure to web development, design systems, and building things that actually work in a browser.",
+      "IS 331 Database Design Management & Applications, IT 340 Intro to System Administration. Learned how data is structured at scale and how production systems are managed.",
   },
   {
     date: "Spring 2026",
-    title: "Studied AI Orchestration Methodology",
+    title: "Final Semester — Capstone, Systems Integration & IS117",
     detail:
-      "Analyzed the professor’s reference repo for the spec-sprint workflow. Understood how to turn vague intent into bounded, verifiable execution.",
+      "IT 491 IT Capstone Project, IT 490 Systems Integration, IT 420 Computer Systems & Networks, and IS117 Web Development. Built this portfolio and the Marvel Comic Book Museum as final-semester projects.",
   },
   {
-    date: "Spring 2026",
-    title: "Built First Spec-Driven Project",
+    date: "May 2026",
+    title: "Graduated — B.S. Information Technology, NJIT",
     detail:
-      "Applied the methodology to this portfolio — 9 phase specs written before building, each with clear deliverables and quality gates.",
-  },
-  {
-    date: "Summer 2026 (Planned)",
-    title: "LangChain Fundamentals + RAG Project",
-    detail:
-      "Goal: build a working retrieval-augmented generation system from scratch. Not a tutorial — a real implementation with a documented spec.",
+      "Completed degree. Now building toward AI Forward Engineering — applying the systems, networking, and design foundations from the IT program to AI-integrated architectures.",
   },
 ];
 
@@ -82,10 +94,10 @@ export default function AboutPage() {
             <div className="accent-line mb-6" />
             <h1 className="mb-6">Where I Am and Where I&apos;m Going</h1>
             <p className="text-[var(--ink-70)] text-xl leading-relaxed">
-              I&apos;m a freshman at NJIT. I don&apos;t have three years of work
-              experience. What I have is a clear research-backed direction, the
-              discipline to plan before I build, and the judgment to use AI as a
-              tool — not a shortcut.
+              I&apos;m a recent graduate from NJIT in Information Technology. I don&apos;t have
+              years of industry experience yet. What I have is a clear
+              research-backed direction, the discipline to plan before I build,
+              and the judgment to use AI as a tool — not a shortcut.
             </p>
           </div>
         </div>
@@ -114,7 +126,7 @@ export default function AboutPage() {
               AI Forward Engineering appeals to me because it’s specific. It’s
               not “work in AI” — it’s build the orchestration layer, design the
               prompting system, make the pipeline reliable. That’s a job I can
-              research, practice, and build toward right now, even as a freshman.
+              research, practice, and build toward now that I&apos;ve graduated.
             </p>
           </div>
         </div>

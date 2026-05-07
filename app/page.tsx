@@ -41,15 +41,15 @@ export default function HomePage() {
       <section className="section-spacing page-shell">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div className="flex flex-col gap-6">
-            <p className="eyebrow">AI Forward Engineer · Freshman at NJIT</p>
+            <p className="eyebrow">AI Forward Engineer · IT Graduate, NJIT</p>
             <h1 className="text-[var(--foreground)] leading-[1.05]">
               Building the systems that make AI{" "}
               <span className="text-[var(--accent-soft)]">useful.</span>
             </h1>
             <p className="text-[var(--ink-70)] text-lg leading-relaxed max-w-[50ch]">
-              I’m a freshman at NJIT studying Computer Science with a focus on
-              AI-forward engineering. I’m not just learning to use AI tools —
-              I’m learning to design the workflows, architectures, and systems
+              I&apos;m a recent graduate from NJIT in Information Technology with a focus on
+              AI-forward engineering. I&apos;m not just learning to use AI tools —
+              I&apos;m learning to design the workflows, architectures, and systems
               where AI does serious work.
             </p>
             <div className="flex flex-wrap gap-3 mt-2">

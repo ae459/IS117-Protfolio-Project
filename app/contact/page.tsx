@@ -33,21 +33,21 @@ const audience = [
 const contactLinks = [
   {
     label: "GitHub",
-    sub: "github.com/AmirE",
+    sub: "github.com/ae459",
     href: siteConfig.github,
     icon: GitBranch,
     external: true,
   },
   {
     label: "LinkedIn",
-    sub: "linkedin.com/in/amir-e",
+    sub: "linkedin.com/in/aelmahalawy",
     href: siteConfig.linkedin,
     icon: LinkIcon,
     external: true,
   },
   {
     label: "Email",
-    sub: "amir@njit.edu",
+    sub: "amir.elmaha@gmail.com",
     href: siteConfig.email,
     icon: Mail,
     external: false,
@@ -64,10 +64,10 @@ export default function ContactPage() {
           <div className="accent-line mb-6" />
           <h1 className="mb-6">Let’s Talk</h1>
           <p className="text-[var(--ink-70)] text-xl leading-relaxed">
-            I’m a freshman at NJIT. I’m not going to pretend I have years
-            of experience. What I have is a clear direction, a documented
-            workflow, and a genuine interest in building things that work. If
-            that’s interesting to you — reach out.
+            I&apos;m a recent IT graduate from NJIT. I&apos;m not going to pretend I have
+            years of industry experience. What I have is a clear direction, a
+            documented workflow, and a genuine interest in building things that
+            work. If that&apos;s interesting to you — reach out.
           </p>
         </div>
       </section>
