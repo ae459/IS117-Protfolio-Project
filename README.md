@@ -2,7 +2,7 @@
 
 ## 🌐 Live Site
 
-**[https://amir-e.github.io/IS117-Portfolio-Project/](https://amir-e.github.io/IS117-Portfolio-Project/)**
+https://ae459.github.io/IS117-Protfolio-Project/
 
 ---
 
