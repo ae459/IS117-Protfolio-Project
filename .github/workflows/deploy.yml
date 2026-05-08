@@ -35,6 +35,15 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Verify output directory
+        run: |
+          if [ ! -d "./out" ]; then
+            echo "ERROR: ./out directory was not created by the build. Check the build logs above."
+            exit 1
+          fi
+          echo "Build output found. Contents:"
+          ls ./out
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
