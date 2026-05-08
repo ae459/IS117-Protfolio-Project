@@ -5,6 +5,7 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Panel } from "@/components/ui/panel";
+import { imgPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -113,7 +114,7 @@ export default function ProjectsPage() {
                 {/* Project image */}
                 <div className="relative rounded-[var(--radius-md)] overflow-hidden border border-[var(--ink-08)] bg-[var(--surface-2)]" style={{ aspectRatio: "16/9" }}>
                   <Image
-                    src={project.image}
+                    src={imgPath(project.image)}
                     alt={project.imageAlt}
                     fill
                     className="object-cover"

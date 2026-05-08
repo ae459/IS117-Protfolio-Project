@@ -4,6 +4,7 @@ import { ArrowRight, Zap, BookOpen, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Panel } from "@/components/ui/panel";
+import { imgPath } from "@/lib/utils";
 
 const identitySignals = [
   {
@@ -72,7 +73,7 @@ export default function HomePage() {
               style={{ aspectRatio: "4/3" }}
             >
               <Image
-                src="/home-hero.png"
+                src={imgPath("/home-hero.png")}
                 alt="Abstract AI neural network visualization with dark background and indigo accent tones"
                 fill
                 className="object-cover"

@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Panel } from "@/components/ui/panel";
+import { imgPath } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "About",
@@ -82,7 +83,7 @@ export default function AboutPage() {
         <div className="grid gap-10 lg:grid-cols-[1fr_2fr] lg:items-start">
           <div className="relative rounded-[var(--radius-xl)] overflow-hidden border border-[var(--ink-12)] bg-[var(--surface-1)]" style={{ aspectRatio: "3/4" }}>
             <Image
-              src="/about-portrait.png"
+              src={imgPath("/about-portrait.png")}
               alt="Stylized digital illustration of a young engineer at a workstation with indigo accent lighting"
               fill
               className="object-cover"
