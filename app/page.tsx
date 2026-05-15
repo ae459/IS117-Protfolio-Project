@@ -101,8 +101,8 @@ export default function HomePage() {
           </div>
 
           {/* Hero Visual */}
-          <div className="flex flex-col gap-6">
-            <div className="relative">
+          <div className="flex flex-col gap-6 relative">
+            <div className="relative transform scale-95">
               <div
                 className="rounded-[var(--radius-xl)] border border-[var(--ink-12)] bg-[var(--surface-1)] overflow-hidden"
                 style={{ aspectRatio: "3/4" }}
