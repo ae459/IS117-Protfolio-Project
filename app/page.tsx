@@ -98,7 +98,8 @@ export default function HomePage() {
                 <Link href="/about">About Me</Link>
               </Button>
             </div>
-          </div>flex flex-col gap-6">
+          {/* Hero Visual */}
+          <div className="flex flex-col gap-6">
             <div className="relative">
               <div
                 className="rounded-[var(--radius-xl)] border border-[var(--ink-12)] bg-[var(--surface-1)] overflow-hidden"
@@ -155,10 +156,7 @@ export default function HomePage() {
                   </Tag>
                 );
               })}
-            </div   background:
-                  "radial-gradient(ellipse at 50% 50%, var(--accent-muted) 0%, transparent 70%)",
-              }}
-            />
+            </div>
           </div>
         </div>
       </section>
