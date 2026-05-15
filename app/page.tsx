@@ -98,6 +98,8 @@ export default function HomePage() {
                 <Link href="/about">About Me</Link>
               </Button>
             </div>
+          </div>
+
           {/* Hero Visual */}
           <div className="flex flex-col gap-6">
             <div className="relative">
@@ -224,25 +226,6 @@ export default function HomePage() {
               Let’s Talk <ArrowRight size={16} />
             </Link>
           </Button>
-        </div>
-      </section>
-
-      {/* Find Me Here */}
-      <section className="section-spacing page-shell border-t border-[var(--ink-08)]">
-        <div className="flex flex-col gap-6">
-          {contactLinks.map((link) => (
-            <div key={link.label} className="flex items-center gap-3">
-              <div className="p-2 rounded-[var(--radius-sm)] bg-[var(--accent-muted)] border border-[var(--accent-border)]">
-                <link.icon size={16} className="text-[var(--accent-soft)]" />
-              </div>
-              <div>
-                <p className="eyebrow">{link.label}</p>
-                <p className="text-[var(--ink-60)] text-sm leading-relaxed">
-                  {link.sub}
-                </p>
-              </div>
-            </div>
-          ))}
         </div>
       </section>
     </div>
