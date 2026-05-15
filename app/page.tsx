@@ -1,10 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Zap, BookOpen, Target } from "lucide-react";
+import {
+  ArrowRight,
+  Zap,
+  BookOpen,
+  Target,
+  Mail,
+  ArrowUpRight as ArrowUpRightIcon,
+  GitBranch,
+  Link as LinkIcon,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Panel } from "@/components/ui/panel";
 import { imgPath } from "@/lib/utils";
+import { siteConfig } from "@/lib/site";
 
 const identitySignals = [
   {
@@ -33,6 +43,30 @@ const identitySignals = [
 const skillPreview = [
   "Python", "TypeScript", "Next.js", "Tailwind CSS",
   "OpenAI API", "Prompt Engineering", "Git", "Spec-Driven Dev",
+];
+
+const contactLinks = [
+  {
+    label: "GitHub",
+    sub: "github.com/ae459",
+    href: siteConfig.github,
+    icon: GitBranch,
+    external: true,
+  },
+  {
+    label: "LinkedIn",
+    sub: "linkedin.com/in/aelmahalawy",
+    href: siteConfig.linkedin,
+    icon: LinkIcon,
+    external: true,
+  },
+  {
+    label: "Email",
+    sub: "amir.elmaha@gmail.com",
+    href: siteConfig.email,
+    icon: Mail,
+    external: false,
+  },
 ];
 
 export default function HomePage() {
@@ -64,27 +98,64 @@ export default function HomePage() {
                 <Link href="/about">About Me</Link>
               </Button>
             </div>
-          </div>
-
-          {/* Hero Visual */}
-          <div className="relative">
-            <div
-              className="rounded-[var(--radius-xl)] border border-[var(--ink-12)] bg-[var(--surface-1)] overflow-hidden"
-              style={{ aspectRatio: "4/3" }}
-            >
-              <Image
-                src={imgPath("/Profile-Picture.png")}
-                alt="Amir Eskandari's profile picture"
-                fill
-                className="object-cover"
-                priority
+          </div>flex flex-col gap-6">
+            <div className="relative">
+              <div
+                className="rounded-[var(--radius-xl)] border border-[var(--ink-12)] bg-[var(--surface-1)] overflow-hidden"
+                style={{ aspectRatio: "3/4" }}
+              >
+                <Image
+                  src={imgPath("/Profile-Picture.png")}
+                  alt="Amir Eskandari's profile picture"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              {/* Glow effect */}
+              <div
+                className="absolute inset-0 rounded-[var(--radius-xl)] pointer-events-none"
+                style={{
+                  background:
+                    "radial-gradient(ellipse at 50% 50%, var(--accent-muted) 0%, transparent 70%)",
+                }}
               />
             </div>
-            {/* Glow effect */}
-            <div
-              className="absolute inset-0 rounded-[var(--radius-xl)] pointer-events-none"
-              style={{
-                background:
+            <div className="flex flex-col gap-3">
+              {contactLinks.map((item) => {
+                const Icon = item.icon;
+                const Tag = item.external ? "a" : "a";
+                const extraProps = item.external
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {};
+                return (
+                  <Tag
+                    key={item.label}
+                    href={item.href}
+                    {...extraProps}
+                    className="group flex items-center justify-between p-4 rounded-[var(--radius-lg)] border border-[var(--ink-12)] bg-[var(--surface-1)] hover:border-[var(--accent-border)] hover:bg-[var(--accent-muted)] transition-colors"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="p-2 rounded-[var(--radius-sm)] bg-[var(--surface-2)] group-hover:bg-[var(--accent-muted)] transition-colors">
+                        <Icon
+                          size={18}
+                          className="text-[var(--ink-60)] group-hover:text-[var(--accent-soft)] transition-colors"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-[var(--foreground)]">
+                          {item.label}
+                        </p>
+                      </div>
+                    </div>
+                    <ArrowUpRightIcon
+                      size={16}
+                      className="text-[var(--ink-40)] group-hover:text-[var(--accent-soft)] transition-colors"
+                    />
+                  </Tag>
+                );
+              })}
+            </div   background:
                   "radial-gradient(ellipse at 50% 50%, var(--accent-muted) 0%, transparent 70%)",
               }}
             />
@@ -155,6 +226,25 @@ export default function HomePage() {
               Let’s Talk <ArrowRight size={16} />
             </Link>
           </Button>
+        </div>
+      </section>
+
+      {/* Find Me Here */}
+      <section className="section-spacing page-shell border-t border-[var(--ink-08)]">
+        <div className="flex flex-col gap-6">
+          {contactLinks.map((link) => (
+            <div key={link.label} className="flex items-center gap-3">
+              <div className="p-2 rounded-[var(--radius-sm)] bg-[var(--accent-muted)] border border-[var(--accent-border)]">
+                <link.icon size={16} className="text-[var(--accent-soft)]" />
+              </div>
+              <div>
+                <p className="eyebrow">{link.label}</p>
+                <p className="text-[var(--ink-60)] text-sm leading-relaxed">
+                  {link.sub}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>
