@@ -73,8 +73,8 @@ export default function HomePage() {
               style={{ aspectRatio: "4/3" }}
             >
               <Image
-                src={imgPath("/home-hero.png")}
-                alt="Abstract AI neural network visualization with dark background and indigo accent tones"
+                src={imgPath("/Profile-Picture.png")}
+                alt="Amir Eskandari's profile picture"
                 fill
                 className="object-cover"
                 priority
